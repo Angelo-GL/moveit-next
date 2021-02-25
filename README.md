@@ -1,2 +1,2 @@
 # moveit-next
-Projeto desenvolvido no <NLW>
+Projeto desenvolvido no NLW.
