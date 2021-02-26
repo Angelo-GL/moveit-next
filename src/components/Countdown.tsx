@@ -49,7 +49,9 @@ export function Countdown(){
             </div>   
 
             {hasFinished ? (
-                <button disabled className = {style.countdownButton}> Ciclo encerrado</button>
+                <button disabled className = {style.countdownButton}>
+                     Ciclo encerrado
+                </button>
             ) : (
                <> {/* é a um fragmento semelhante ao React.Fragment*/}
                     {isActive ? (
