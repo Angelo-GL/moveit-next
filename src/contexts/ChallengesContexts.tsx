@@ -51,6 +51,8 @@ export function ChallengesProvider({children}: ChallengesProviderProps){
 
         setActiveChalleng(challenge)
 
+        new Audio('/notification.mp3').play()
+
         if(Notification.permission === 'granted'){  //Notifica ao usuário caso a permissão seja aceita.
             new Notification ('Novo desafio!', {
                 body: `Valendo ${challenge.amount}xp!`
